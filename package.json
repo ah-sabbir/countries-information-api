@@ -17,6 +17,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "proxy": {
+    "**": {
+      "target": "https://api.first.org/data/v1/countries",
+      "secure": false,
+      "changeOrigin": true
+    }
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
