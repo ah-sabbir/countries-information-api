@@ -25,7 +25,7 @@ export default function CountryList() {
     // console.log(e.target.id);
     getCoutryDetails(e.target.id)
       .then((data) => {
-        alert(`official Name:  ${data[0].name.official}`);
+        alert(`official Name:  ${data[0].name.official} \n flag: ${data[0].flag} \n Language: ${data[0].languages[0]} `);
         console.log(data[0]);
       })
       .catch((err) => {
