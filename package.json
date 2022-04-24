@@ -17,7 +17,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "proxy": "https://restcountries.com/v3.1/all",
   "eslintConfig": {
     "extends": [
       "react-app",
